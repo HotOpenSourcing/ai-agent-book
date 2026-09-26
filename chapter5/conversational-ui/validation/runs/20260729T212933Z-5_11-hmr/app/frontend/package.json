@@ -3,10 +3,10 @@
   "private": true,
   "version": "0.1.0",
   "type": "module",
-  "description": "实验 5-11：对话式界面定制系统 —— React(Vite) 前端",
+  "description": "\u5b9e\u9a8c 5-11\uff1a\u5bf9\u8bdd\u5f0f\u754c\u9762\u5b9a\u5236\u7cfb\u7edf \u2014\u2014 React(Vite) \u524d\u7aef",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
+    "dev": "node init && vite",
+    "build": "node init && vite build",
     "preview": "vite preview"
   },
   "dependencies": {

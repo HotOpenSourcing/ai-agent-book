@@ -5,8 +5,8 @@
   "scripts": {
     "generate": "node generate.mjs",
     "review": "node review.mjs",
-    "dev": "slidev",
-    "build:all": "node build-all.mjs",
+    "dev": "node init && slidev",
+    "build:all": "node init && node build-all.mjs",
     "export": "slidev export"
   },
   "dependencies": {
